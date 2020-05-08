@@ -1,0 +1,4 @@
+import ctypes, os
+SetConsoleTitleW = ctypes.windll.kernel32.SetConsoleTitleW
+SetConsoleTitleW.argtypes = [ctypes.c_wchar_p]
+SetConsoleTitleW(f"PDB: {os.getcwd()}")
