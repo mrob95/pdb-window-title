@@ -1,0 +1,1 @@
+`.pdbrc` file which will put `PDB: ` in the console window title on windows when you enter the python debugger.
